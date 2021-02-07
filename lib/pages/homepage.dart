@@ -71,7 +71,9 @@ class _HomePageState extends State<HomePage> {
                               ? showBottomSheet(
                                   builder: (ctx) {
                                     return Container(
-                                      padding: EdgeInsets.all(8),
+                                      margin: EdgeInsets.only(top: 50),
+                                      padding: EdgeInsetsDirectional.only(
+                                          start: 50, end: 50),
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.stretch,
