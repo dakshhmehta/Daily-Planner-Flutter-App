@@ -1,6 +1,7 @@
+import 'package:daily_planner/pages/counter_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/homepage.dart';
+// import 'pages/homepage.dart';
 
 class App extends StatelessWidget {
   // This widget is the root of your application.
@@ -24,7 +25,7 @@ class App extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: CounterScreen(),
     );
   }
 }
